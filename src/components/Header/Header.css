@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+/* header left */
+.header__left {
+  flex: 0.5;
+  min-width: 70px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 30px;
+}
+.header__left-icon {
+  color: grey;
+}
+.header__left > input {
+  font-size: 14px;
+  width: 100%;
+  border: none;
+  margin-left: 5px;
+}
+.header__left > input:focus-within {
+  outline: none;
+}
+/* header right */
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}

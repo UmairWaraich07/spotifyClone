@@ -1,0 +1,81 @@
+/* footer */
+.footer {
+  position: fixed;
+  height: 65px;
+  bottom: 0;
+  background-color: #282828;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  color: grey;
+}
+
+/* styles for footer left part */
+.footer__left {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  max-width: 300px;
+}
+.footer__left-img {
+  object-fit: contain;
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+
+.footer__left-songinfo > p {
+  font-size: 12px;
+  color: grey;
+}
+
+/* styles for footer center */
+.footer__center {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__center-green {
+  color: #1ed15e;
+}
+.footer__center-icon:hover {
+  color: #fff;
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+.footer__center-green:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+
+/* styles for footer right section */
+
+.footer__right {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer__right * .MuiSlider-root {
+  color: #1ed15e;
+}
+.footer__right * .css-53tbrc-MuiSlider-root {
+  padding: 0;
+}
+
+.footer__right-icon:hover {
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .footer__left-img {
+    margin-right: 20px;
+  }
+  .footer__center {
+    gap: 20px;
+  }
+}
